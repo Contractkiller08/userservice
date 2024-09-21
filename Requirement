@@ -1,0 +1,15 @@
+
+Requirement for user microservice
+
+Spring Security
+----------------------
+1. Secure Endpoints
+    a. register --> No auth required
+    b. login --> No auth required
+    c. fetch user --> auth required
+    d. delete user --> auth required
+    e. update user --> auth required
+
+2. JWT token generation
+    a. generate jwt token when user login first using jwt util class
+    b. implement above functionality using OAuth 2
